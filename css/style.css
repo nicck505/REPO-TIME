@@ -1,0 +1,107 @@
+
+
+
+
+        body{
+            background-color: dimgrey;
+            font-family:"sans-serif";
+            margin: 0;
+            padding: 0;
+
+        }
+        nav{
+          background-color: burlywood;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 0;
+        }
+        nav ul{
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li{
+            margin: 0 30px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 50px;
+        }
+        nav ul li a:hover{
+            background-color: darkred;
+        }
+
+
+        h2{
+            color: purple;
+            text-decoration: olive;
+            font-family: sans-serif;
+        }
+        body{
+            font-size: 30px;
+            font-family: sans-serif;
+            font-weight: bolder;
+        }
+        /*div{*/
+        /*    background-color: darksalmon;*/
+        /*    height: 100px;*/
+        /*    color: white;*/
+        /*}*/
+        .one{
+            background-color: black;
+            height: 200px;
+        }
+        .three{
+            background-color: aqua;
+            height: 50px;
+            color: darkred;
+        }
+        #four{
+
+            background-color: aqua;
+            height: 120px;
+            color: dodgerblue;
+        }
+        #five{
+            background-color: darkred;
+            height: 100px;
+            color: white;
+        }
+     .background-image{
+            background-image: url("https://cdn.pixabay.com/photo/2021/02/03/23/09/operating-room-5979687_960_720.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 450px;
+            border-radius: 20px;
+            margin: 20px;
+        }
+     main{
+         display: flex;
+         align-items: center;
+         text-space: 10px;
+         white-space: normal;
+     }
+     .image-one{
+         border-radius: 50px;
+         padding: 20px;
+
+     }
+     .image-two{
+         padding-right: 20px;
+     }
+     .image-three{
+         padding-right: 20px;
+     }
+     .image-four{
+         padding-right: 20px;
+     }
+
+
+
+
